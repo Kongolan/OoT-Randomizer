@@ -1194,6 +1194,10 @@ def get_pool_core(world):
     if not world.shuffle_kokiri_sword:
         replace_max_item(pool, 'Kokiri Sword', 0)
 
+    if world.shuffle_bunny_hood:
+        pool.append('Bunny Hood')
+        pool.remove(random.choice(remove_junk_items))
+
     if world.junk_ice_traps == 'off': 
         replace_max_item(pool, 'Ice Trap', 0)
     elif world.junk_ice_traps == 'onslaught':

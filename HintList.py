@@ -63,6 +63,7 @@ hintTable = {
     'Boomerang':                                                (["a banana", "a stun stick"], "the Boomerang", 'item'),
     'Bow':                                                      (["an archery enabler", "a danger dart launcher"], "a Bow", 'item'),
     'Bomb Bag':                                                 (["an explosive container", "a blast bag"], "a Bomb Bag", 'item'),
+    'Bunny Hood':                                               (["some yellow ears", "a running man gift"], "a Bunny Hood", 'item'),
     'Progressive Hookshot':                                     (["Dampe's keepsake", "the Grapple Beam", "the BOING! chain"], "a Hookshot", 'item'),
     'Progressive Strength Upgrade':                             (["power gloves", "metal mittens", "the heavy lifty"], "a Strength Upgrade", 'item'),
     'Progressive Scale':                                        (["a deeper dive", "a piece of Zora"], "a Zora Scale", 'item'),

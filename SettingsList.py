@@ -1634,6 +1634,23 @@ setting_infos = [
         },
     ),
     Checkbutton(
+        name           = 'shuffle_bunny_hood',
+        gui_text       = 'Shuffle Bunny Hood',
+        gui_tooltip    = '''\
+            Enabling this shuffles the Bunny Hood into the pool.
+
+            With this option they will appear randomly in the 
+            world, but can also be lend from the mask shop. 
+            Once you find them it unlocks all other masks to 
+            prevent the mask quest to break.
+        ''',
+        default        = True,
+        shared         = True,
+        gui_params     = {
+            'randomize_Key': 'randomize_settings',
+        },
+    ),
+    Checkbutton(
         name           = 'shuffle_ocarinas',
         gui_text       = 'Shuffle Ocarinas',
         gui_tooltip    = '''\
