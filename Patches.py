@@ -976,6 +976,11 @@ def patch_rom(spoiler:Spoiler, world:World, rom:Rom):
     if world.open_fountain:
         save_context.write_bits(0x0EDB, 0x08) #Move king zora
 
+    # if world.shuffle_bunny_hood:
+    #     rom.write_int32(rom.sym('SHUFFLE_BUNNY_HOOD'), 1)
+    # else:
+    #     rom.write_int32(rom.sym('SHUFFLE_BUNNY_HOOD'), 0)
+
     # Make all chest opening animations fast
     rom.write_byte(rom.sym('FAST_CHESTS'), int(world.fast_chests))
 
